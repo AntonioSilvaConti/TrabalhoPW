@@ -1,9 +1,10 @@
 {
-    "name": "Laravel PHP 8.2",
-    "image": "ghcr.io/devcontainers/php:8.2",
-    "features": {
-      "composer": "latest",
-      "git": "latest"
-    },
-    "postCreateCommand": "composer install"
-  }
+  "name": "Laravel PHP 8.2",
+  "dockerFile": "Dockerfile",
+  "context": "..",
+  "features": {
+    "composer": "latest",
+    "git": "latest"
+  },
+  "postCreateCommand": "composer install"
+}
